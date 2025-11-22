@@ -1,0 +1,104 @@
+--- Trace Log Iniciado ---
+[1763823424.831778] [Estudante 01] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823424.831790] [Estudante 02] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823424.831797] [Estudante 03] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823424.850617] [Estudante 03] REQ_ENTRY       | Eat:0 Wait:0 | Tentando sentar
+[1763823424.850690] [Estudante 03] WAIT_ENTRY      | Eat:0 Wait:1 | Aguardando par
+[1763823424.864883] [Estudante 02] REQ_ENTRY       | Eat:0 Wait:1 | Tentando sentar
+[1763823424.864938] [Estudante 02] ENTERED         | Eat:1 Wait:1 | Conseguiu mesa
+[1763823424.864956] [Estudante 02] EATING          | Eat:1 Wait:1 | Comendo
+[1763823424.864961] [Estudante 03] ENTERED         | Eat:2 Wait:0 | Conseguiu mesa
+[1763823424.864990] [Estudante 03] EATING          | Eat:2 Wait:0 | Comendo
+[1763823424.864997] [Estudante 01] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823424.865027] [Estudante 01] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823424.865038] [Estudante 01] EATING          | Eat:3 Wait:0 | Comendo
+[1763823424.877517] [Estudante 03] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823424.877553] [Estudante 03] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823424.877565] [Estudante 03] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823424.884216] [Estudante 01] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823424.884285] [Estudante 01] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823424.898838] [Estudante 03] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823424.898879] [Estudante 03] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823424.898896] [Estudante 03] EATING          | Eat:3 Wait:0 | Comendo
+[1763823424.915801] [Estudante 02] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823424.915879] [Estudante 02] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823424.915909] [Estudante 02] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823424.940920] [Estudante 03] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823424.940949] [Estudante 03] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823424.940957] [Estudante 03] LEFT            | Eat:1 Wait:0 | Saiu do refeitório
+[1763823424.940969] [Estudante 03] GET_FOOD        | Eat:1 Wait:0 | Pegando comida
+[1763823424.940974] [Estudante 01] LEFT            | Eat:0 Wait:0 | Saiu do refeitório
+[1763823424.940998] [Estudante 01] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823424.949940] [Estudante 02] REQ_ENTRY       | Eat:0 Wait:0 | Tentando sentar
+[1763823424.949966] [Estudante 02] WAIT_ENTRY      | Eat:0 Wait:1 | Aguardando par
+[1763823424.971168] [Estudante 03] REQ_ENTRY       | Eat:0 Wait:1 | Tentando sentar
+[1763823424.971299] [Estudante 03] ENTERED         | Eat:1 Wait:1 | Conseguiu mesa
+[1763823424.971325] [Estudante 03] EATING          | Eat:1 Wait:1 | Comendo
+[1763823424.971338] [Estudante 02] ENTERED         | Eat:2 Wait:0 | Conseguiu mesa
+[1763823424.971391] [Estudante 02] EATING          | Eat:2 Wait:0 | Comendo
+[1763823424.983860] [Estudante 03] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823424.983905] [Estudante 03] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823424.990950] [Estudante 01] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823424.990989] [Estudante 01] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823424.990998] [Estudante 01] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.010650] [Estudante 01] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.010717] [Estudante 01] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.010747] [Estudante 01] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823425.012625] [Estudante 02] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823425.012668] [Estudante 02] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823425.012688] [Estudante 02] LEFT            | Eat:1 Wait:0 | Saiu do refeitório
+[1763823425.012710] [Estudante 02] GET_FOOD        | Eat:1 Wait:0 | Pegando comida
+[1763823425.012720] [Estudante 03] LEFT            | Eat:0 Wait:0 | Saiu do refeitório
+[1763823425.012803] [Estudante 03] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.056207] [Estudante 02] REQ_ENTRY       | Eat:0 Wait:0 | Tentando sentar
+[1763823425.056271] [Estudante 02] WAIT_ENTRY      | Eat:0 Wait:1 | Aguardando par
+[1763823425.058122] [Estudante 01] REQ_ENTRY       | Eat:0 Wait:1 | Tentando sentar
+[1763823425.058141] [Estudante 01] ENTERED         | Eat:1 Wait:1 | Conseguiu mesa
+[1763823425.058149] [Estudante 01] EATING          | Eat:1 Wait:1 | Comendo
+[1763823425.058155] [Estudante 02] ENTERED         | Eat:2 Wait:0 | Conseguiu mesa
+[1763823425.058164] [Estudante 02] EATING          | Eat:2 Wait:0 | Comendo
+[1763823425.060841] [Estudante 03] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.060860] [Estudante 03] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.060871] [Estudante 03] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.079702] [Estudante 02] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.079727] [Estudante 02] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.079736] [Estudante 02] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823425.092265] [Estudante 02] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.092320] [Estudante 02] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.092336] [Estudante 02] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.095546] [Estudante 03] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.095584] [Estudante 03] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.095598] [Estudante 03] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823425.105168] [Estudante 01] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823425.105216] [Estudante 01] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823425.111156] [Estudante 02] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823425.111182] [Estudante 02] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823425.111190] [Estudante 02] LEFT            | Eat:1 Wait:0 | Saiu do refeitório
+[1763823425.111199] [Estudante 02] GET_FOOD        | Eat:1 Wait:0 | Pegando comida
+[1763823425.111203] [Estudante 01] LEFT            | Eat:0 Wait:0 | Saiu do refeitório
+[1763823425.111223] [Estudante 01] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.126222] [Estudante 02] REQ_ENTRY       | Eat:0 Wait:0 | Tentando sentar
+[1763823425.126253] [Estudante 02] WAIT_ENTRY      | Eat:0 Wait:1 | Aguardando par
+[1763823425.135682] [Estudante 03] REQ_ENTRY       | Eat:0 Wait:1 | Tentando sentar
+[1763823425.135725] [Estudante 03] ENTERED         | Eat:1 Wait:1 | Conseguiu mesa
+[1763823425.135740] [Estudante 03] EATING          | Eat:1 Wait:1 | Comendo
+[1763823425.135750] [Estudante 02] ENTERED         | Eat:2 Wait:0 | Conseguiu mesa
+[1763823425.135779] [Estudante 02] EATING          | Eat:2 Wait:0 | Comendo
+[1763823425.145242] [Estudante 01] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.145277] [Estudante 01] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.145287] [Estudante 01] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.149517] [Estudante 03] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.149559] [Estudante 03] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.149570] [Estudante 03] FINISHED        | Eat:2 Wait:0 | Terminou todas iterações
+[1763823425.171261] [Estudante 01] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823425.171283] [Estudante 01] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823425.177832] [Estudante 02] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823425.177849] [Estudante 02] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823425.177856] [Estudante 02] LEFT            | Eat:1 Wait:0 | Saiu do refeitório
+[1763823425.177868] [Estudante 02] FINISHED        | Eat:1 Wait:0 | Terminou todas iterações
+[1763823425.177893] [Estudante 01] LEFT            | Eat:0 Wait:0 | Saiu do refeitório
+[1763823425.177904] [Estudante 01] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.209820] [Estudante 01] REQ_ENTRY       | Eat:0 Wait:0 | Tentando sentar
+[1763823425.209843] [Estudante 01] ABORT_ENTRY     | Eat:0 Wait:0 | Último sobrevivente detectado
+[1763823425.209849] [Estudante 01] FINISHED        | Eat:0 Wait:0 | Terminou todas iterações
+--- Trace Log Finalizado ---

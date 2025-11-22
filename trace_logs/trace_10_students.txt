@@ -1,0 +1,312 @@
+--- Trace Log Iniciado ---
+[1763823425.225690] [Estudante 01] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225699] [Estudante 02] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225706] [Estudante 03] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225715] [Estudante 04] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225724] [Estudante 05] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225733] [Estudante 06] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225742] [Estudante 07] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225750] [Estudante 08] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225760] [Estudante 09] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.225769] [Estudante 10] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.238338] [Estudante 04] REQ_ENTRY       | Eat:0 Wait:0 | Tentando sentar
+[1763823425.238375] [Estudante 04] WAIT_ENTRY      | Eat:0 Wait:1 | Aguardando par
+[1763823425.244931] [Estudante 08] REQ_ENTRY       | Eat:0 Wait:1 | Tentando sentar
+[1763823425.244985] [Estudante 08] ENTERED         | Eat:1 Wait:1 | Conseguiu mesa
+[1763823425.244999] [Estudante 08] EATING          | Eat:1 Wait:1 | Comendo
+[1763823425.245006] [Estudante 04] ENTERED         | Eat:2 Wait:0 | Conseguiu mesa
+[1763823425.245028] [Estudante 04] EATING          | Eat:2 Wait:0 | Comendo
+[1763823425.251852] [Estudante 03] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.251885] [Estudante 03] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.251895] [Estudante 03] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.258627] [Estudante 01] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.258647] [Estudante 01] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.258657] [Estudante 01] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.262762] [Estudante 07] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.262779] [Estudante 07] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.262788] [Estudante 07] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.267810] [Estudante 02] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.267839] [Estudante 02] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.267851] [Estudante 02] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.273860] [Estudante 06] REQ_ENTRY       | Eat:6 Wait:0 | Tentando sentar
+[1763823425.273908] [Estudante 06] ENTERED         | Eat:7 Wait:0 | Conseguiu mesa
+[1763823425.273917] [Estudante 06] EATING          | Eat:7 Wait:0 | Comendo
+[1763823425.274258] [Estudante 10] REQ_ENTRY       | Eat:7 Wait:0 | Tentando sentar
+[1763823425.274273] [Estudante 10] ENTERED         | Eat:8 Wait:0 | Conseguiu mesa
+[1763823425.274283] [Estudante 10] EATING          | Eat:8 Wait:0 | Comendo
+[1763823425.274289] [Estudante 01] REQ_LEAVE       | Eat:8 Wait:0 | Tentando sair
+[1763823425.274304] [Estudante 01] LEFT            | Eat:7 Wait:0 | Saiu do refeitório
+[1763823425.274312] [Estudante 01] GET_FOOD        | Eat:7 Wait:0 | Pegando comida
+[1763823425.274318] [Estudante 09] REQ_ENTRY       | Eat:7 Wait:0 | Tentando sentar
+[1763823425.274330] [Estudante 09] ENTERED         | Eat:8 Wait:0 | Conseguiu mesa
+[1763823425.274338] [Estudante 09] EATING          | Eat:8 Wait:0 | Comendo
+[1763823425.274343] [Estudante 05] REQ_ENTRY       | Eat:8 Wait:0 | Tentando sentar
+[1763823425.274354] [Estudante 05] ENTERED         | Eat:9 Wait:0 | Conseguiu mesa
+[1763823425.274360] [Estudante 05] EATING          | Eat:9 Wait:0 | Comendo
+[1763823425.277804] [Estudante 08] REQ_LEAVE       | Eat:9 Wait:0 | Tentando sair
+[1763823425.277828] [Estudante 08] LEFT            | Eat:8 Wait:0 | Saiu do refeitório
+[1763823425.277844] [Estudante 08] GET_FOOD        | Eat:8 Wait:0 | Pegando comida
+[1763823425.286620] [Estudante 02] REQ_LEAVE       | Eat:8 Wait:0 | Tentando sair
+[1763823425.286643] [Estudante 02] LEFT            | Eat:7 Wait:0 | Saiu do refeitório
+[1763823425.286652] [Estudante 02] GET_FOOD        | Eat:7 Wait:0 | Pegando comida
+[1763823425.289334] [Estudante 01] REQ_ENTRY       | Eat:7 Wait:0 | Tentando sentar
+[1763823425.289369] [Estudante 01] ENTERED         | Eat:8 Wait:0 | Conseguiu mesa
+[1763823425.289383] [Estudante 01] EATING          | Eat:8 Wait:0 | Comendo
+[1763823425.296750] [Estudante 05] REQ_LEAVE       | Eat:8 Wait:0 | Tentando sair
+[1763823425.296803] [Estudante 05] LEFT            | Eat:7 Wait:0 | Saiu do refeitório
+[1763823425.296819] [Estudante 05] GET_FOOD        | Eat:7 Wait:0 | Pegando comida
+[1763823425.297375] [Estudante 03] REQ_LEAVE       | Eat:7 Wait:0 | Tentando sair
+[1763823425.297407] [Estudante 03] LEFT            | Eat:6 Wait:0 | Saiu do refeitório
+[1763823425.297427] [Estudante 03] GET_FOOD        | Eat:6 Wait:0 | Pegando comida
+[1763823425.297439] [Estudante 04] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.297460] [Estudante 04] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.297471] [Estudante 04] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.305926] [Estudante 06] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.305959] [Estudante 06] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.305983] [Estudante 06] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.305995] [Estudante 07] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.306029] [Estudante 07] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.306040] [Estudante 07] GET_FOOD        | Eat:3 Wait:0 | Pegando comida
+[1763823425.307914] [Estudante 01] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.307948] [Estudante 01] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.307963] [Estudante 01] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823425.308109] [Estudante 02] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.308133] [Estudante 02] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.308144] [Estudante 02] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.314382] [Estudante 03] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.314414] [Estudante 03] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.314427] [Estudante 03] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.317303] [Estudante 10] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.317323] [Estudante 10] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.317334] [Estudante 10] GET_FOOD        | Eat:3 Wait:0 | Pegando comida
+[1763823425.324644] [Estudante 09] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.324672] [Estudante 09] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.324679] [Estudante 09] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823425.328072] [Estudante 08] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.328098] [Estudante 08] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.328104] [Estudante 08] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.331070] [Estudante 07] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.331103] [Estudante 07] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.331117] [Estudante 07] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.331958] [Estudante 03] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.331990] [Estudante 03] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.332004] [Estudante 03] GET_FOOD        | Eat:3 Wait:0 | Pegando comida
+[1763823425.336607] [Estudante 04] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.336650] [Estudante 04] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.336663] [Estudante 04] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.337550] [Estudante 05] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.337573] [Estudante 05] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.337583] [Estudante 05] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.339698] [Estudante 09] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.339728] [Estudante 09] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.339766] [Estudante 09] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.339775] [Estudante 01] REQ_ENTRY       | Eat:6 Wait:0 | Tentando sentar
+[1763823425.339801] [Estudante 01] ENTERED         | Eat:7 Wait:0 | Conseguiu mesa
+[1763823425.339809] [Estudante 01] EATING          | Eat:7 Wait:0 | Comendo
+[1763823425.343638] [Estudante 07] REQ_LEAVE       | Eat:7 Wait:0 | Tentando sair
+[1763823425.343669] [Estudante 07] LEFT            | Eat:6 Wait:0 | Saiu do refeitório
+[1763823425.343677] [Estudante 07] GET_FOOD        | Eat:6 Wait:0 | Pegando comida
+[1763823425.349438] [Estudante 02] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.349464] [Estudante 02] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.349471] [Estudante 02] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.355013] [Estudante 06] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.355034] [Estudante 06] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.355043] [Estudante 06] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.355048] [Estudante 10] REQ_ENTRY       | Eat:6 Wait:0 | Tentando sentar
+[1763823425.355061] [Estudante 10] ENTERED         | Eat:7 Wait:0 | Conseguiu mesa
+[1763823425.355067] [Estudante 10] EATING          | Eat:7 Wait:0 | Comendo
+[1763823425.357119] [Estudante 08] REQ_LEAVE       | Eat:7 Wait:0 | Tentando sair
+[1763823425.357146] [Estudante 08] LEFT            | Eat:6 Wait:0 | Saiu do refeitório
+[1763823425.357153] [Estudante 08] GET_FOOD        | Eat:6 Wait:0 | Pegando comida
+[1763823425.366916] [Estudante 02] REQ_ENTRY       | Eat:6 Wait:0 | Tentando sentar
+[1763823425.366969] [Estudante 02] ENTERED         | Eat:7 Wait:0 | Conseguiu mesa
+[1763823425.366992] [Estudante 02] EATING          | Eat:7 Wait:0 | Comendo
+[1763823425.367002] [Estudante 09] REQ_LEAVE       | Eat:7 Wait:0 | Tentando sair
+[1763823425.367050] [Estudante 09] LEFT            | Eat:6 Wait:0 | Saiu do refeitório
+[1763823425.367063] [Estudante 09] GET_FOOD        | Eat:6 Wait:0 | Pegando comida
+[1763823425.369829] [Estudante 01] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.369866] [Estudante 01] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.369879] [Estudante 01] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.372275] [Estudante 03] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.372317] [Estudante 03] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.372340] [Estudante 03] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.372354] [Estudante 06] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.372386] [Estudante 06] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.372401] [Estudante 06] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.374833] [Estudante 05] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.374850] [Estudante 05] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.374863] [Estudante 05] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.380711] [Estudante 07] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.380732] [Estudante 07] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.380743] [Estudante 07] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.380772] [Estudante 04] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.380797] [Estudante 04] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.380809] [Estudante 04] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.387178] [Estudante 08] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.387227] [Estudante 08] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.387249] [Estudante 08] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.387255] [Estudante 02] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.387303] [Estudante 02] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.387315] [Estudante 02] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.393265] [Estudante 07] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.393279] [Estudante 07] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.393284] [Estudante 07] GET_FOOD        | Eat:3 Wait:0 | Pegando comida
+[1763823425.394449] [Estudante 04] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.394467] [Estudante 04] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.394481] [Estudante 04] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.399087] [Estudante 10] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.399117] [Estudante 10] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.399135] [Estudante 10] GET_FOOD        | Eat:3 Wait:0 | Pegando comida
+[1763823425.399147] [Estudante 01] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.399167] [Estudante 01] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.399178] [Estudante 01] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.399455] [Estudante 06] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.399471] [Estudante 06] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.399481] [Estudante 06] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.402373] [Estudante 09] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.402392] [Estudante 09] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.402403] [Estudante 09] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.407980] [Estudante 05] REQ_ENTRY       | Eat:6 Wait:0 | Tentando sentar
+[1763823425.408012] [Estudante 05] ENTERED         | Eat:7 Wait:0 | Conseguiu mesa
+[1763823425.408022] [Estudante 05] EATING          | Eat:7 Wait:0 | Comendo
+[1763823425.408031] [Estudante 07] REQ_ENTRY       | Eat:7 Wait:0 | Tentando sentar
+[1763823425.408043] [Estudante 07] ENTERED         | Eat:8 Wait:0 | Conseguiu mesa
+[1763823425.408051] [Estudante 07] EATING          | Eat:8 Wait:0 | Comendo
+[1763823425.408057] [Estudante 08] REQ_LEAVE       | Eat:8 Wait:0 | Tentando sair
+[1763823425.408069] [Estudante 08] LEFT            | Eat:7 Wait:0 | Saiu do refeitório
+[1763823425.408075] [Estudante 08] GET_FOOD        | Eat:7 Wait:0 | Pegando comida
+[1763823425.412361] [Estudante 03] REQ_LEAVE       | Eat:7 Wait:0 | Tentando sair
+[1763823425.412375] [Estudante 03] LEFT            | Eat:6 Wait:0 | Saiu do refeitório
+[1763823425.412380] [Estudante 03] GET_FOOD        | Eat:6 Wait:0 | Pegando comida
+[1763823425.422291] [Estudante 06] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.422358] [Estudante 06] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.422375] [Estudante 06] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.423517] [Estudante 04] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.423559] [Estudante 04] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.423573] [Estudante 04] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.427405] [Estudante 03] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.427426] [Estudante 03] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.427437] [Estudante 03] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.428814] [Estudante 01] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.428848] [Estudante 01] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.428861] [Estudante 01] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.433379] [Estudante 02] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.433431] [Estudante 02] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.433454] [Estudante 02] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.433460] [Estudante 05] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.433501] [Estudante 05] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.433511] [Estudante 05] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.435990] [Estudante 09] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.436018] [Estudante 09] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.436072] [Estudante 09] GET_FOOD        | Eat:3 Wait:0 | Pegando comida
+[1763823425.436149] [Estudante 06] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.436164] [Estudante 06] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.436182] [Estudante 06] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.437651] [Estudante 08] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.437678] [Estudante 08] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.437691] [Estudante 08] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.445886] [Estudante 10] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.445938] [Estudante 10] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.445952] [Estudante 10] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.456596] [Estudante 07] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.456648] [Estudante 07] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.456664] [Estudante 07] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.457890] [Estudante 08] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.457917] [Estudante 08] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.457928] [Estudante 08] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.459276] [Estudante 01] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.459294] [Estudante 01] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.459305] [Estudante 01] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.464109] [Estudante 09] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.464143] [Estudante 09] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.464158] [Estudante 09] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.465677] [Estudante 02] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.465715] [Estudante 02] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.465729] [Estudante 02] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.469652] [Estudante 04] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.469692] [Estudante 04] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.469707] [Estudante 04] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.472465] [Estudante 03] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.472506] [Estudante 03] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.472527] [Estudante 03] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.472539] [Estudante 07] REQ_ENTRY       | Eat:5 Wait:0 | Tentando sentar
+[1763823425.472581] [Estudante 07] ENTERED         | Eat:6 Wait:0 | Conseguiu mesa
+[1763823425.472594] [Estudante 07] EATING          | Eat:6 Wait:0 | Comendo
+[1763823425.474958] [Estudante 06] REQ_LEAVE       | Eat:6 Wait:0 | Tentando sair
+[1763823425.474991] [Estudante 06] LEFT            | Eat:5 Wait:0 | Saiu do refeitório
+[1763823425.475003] [Estudante 06] GET_FOOD        | Eat:5 Wait:0 | Pegando comida
+[1763823425.480575] [Estudante 01] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.480600] [Estudante 01] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.480611] [Estudante 01] FINISHED        | Eat:4 Wait:0 | Terminou todas iterações
+[1763823425.481526] [Estudante 05] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.481538] [Estudante 05] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.481542] [Estudante 05] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.491980] [Estudante 10] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.492027] [Estudante 10] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.492046] [Estudante 10] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.492057] [Estudante 08] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.492087] [Estudante 08] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.492099] [Estudante 08] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.493382] [Estudante 09] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.493403] [Estudante 09] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.493413] [Estudante 09] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.497337] [Estudante 07] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.497365] [Estudante 07] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.497376] [Estudante 07] FINISHED        | Eat:3 Wait:0 | Terminou todas iterações
+[1763823425.499317] [Estudante 06] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.499340] [Estudante 06] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.499351] [Estudante 06] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.501552] [Estudante 03] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.501574] [Estudante 03] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.501579] [Estudante 03] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.501727] [Estudante 04] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.501735] [Estudante 04] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.501740] [Estudante 04] GET_FOOD        | Eat:4 Wait:0 | Pegando comida
+[1763823425.512151] [Estudante 02] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.512199] [Estudante 02] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.512212] [Estudante 02] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.513164] [Estudante 03] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.513185] [Estudante 03] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.513203] [Estudante 03] FINISHED        | Eat:4 Wait:0 | Terminou todas iterações
+[1763823425.513227] [Estudante 09] REQ_ENTRY       | Eat:4 Wait:0 | Tentando sentar
+[1763823425.513259] [Estudante 09] ENTERED         | Eat:5 Wait:0 | Conseguiu mesa
+[1763823425.513273] [Estudante 09] EATING          | Eat:5 Wait:0 | Comendo
+[1763823425.515626] [Estudante 06] REQ_LEAVE       | Eat:5 Wait:0 | Tentando sair
+[1763823425.515656] [Estudante 06] LEFT            | Eat:4 Wait:0 | Saiu do refeitório
+[1763823425.515667] [Estudante 06] FINISHED        | Eat:4 Wait:0 | Terminou todas iterações
+[1763823425.525049] [Estudante 02] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.525095] [Estudante 02] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.525102] [Estudante 02] FINISHED        | Eat:3 Wait:0 | Terminou todas iterações
+[1763823425.525417] [Estudante 04] REQ_ENTRY       | Eat:3 Wait:0 | Tentando sentar
+[1763823425.525431] [Estudante 04] ENTERED         | Eat:4 Wait:0 | Conseguiu mesa
+[1763823425.525436] [Estudante 04] EATING          | Eat:4 Wait:0 | Comendo
+[1763823425.527020] [Estudante 09] REQ_LEAVE       | Eat:4 Wait:0 | Tentando sair
+[1763823425.527033] [Estudante 09] LEFT            | Eat:3 Wait:0 | Saiu do refeitório
+[1763823425.527039] [Estudante 09] FINISHED        | Eat:3 Wait:0 | Terminou todas iterações
+[1763823425.530417] [Estudante 05] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.530444] [Estudante 05] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.530456] [Estudante 05] GET_FOOD        | Eat:2 Wait:0 | Pegando comida
+[1763823425.532077] [Estudante 10] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.532110] [Estudante 10] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.532123] [Estudante 10] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.536914] [Estudante 08] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.536951] [Estudante 08] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.536965] [Estudante 08] FINISHED        | Eat:2 Wait:0 | Terminou todas iterações
+[1763823425.545902] [Estudante 10] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823425.545948] [Estudante 10] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823425.547714] [Estudante 05] REQ_ENTRY       | Eat:2 Wait:0 | Tentando sentar
+[1763823425.547775] [Estudante 05] ENTERED         | Eat:3 Wait:0 | Conseguiu mesa
+[1763823425.547787] [Estudante 05] EATING          | Eat:3 Wait:0 | Comendo
+[1763823425.555602] [Estudante 04] REQ_LEAVE       | Eat:3 Wait:0 | Tentando sair
+[1763823425.555657] [Estudante 04] LEFT            | Eat:2 Wait:0 | Saiu do refeitório
+[1763823425.555680] [Estudante 04] FINISHED        | Eat:2 Wait:0 | Terminou todas iterações
+[1763823425.561563] [Estudante 05] REQ_LEAVE       | Eat:2 Wait:0 | Tentando sair
+[1763823425.561600] [Estudante 05] WAIT_LEAVE      | Eat:2 Wait:0 | Esperando par para sair (Barreira)
+[1763823425.561614] [Estudante 05] LEFT            | Eat:1 Wait:0 | Saiu do refeitório
+[1763823425.561674] [Estudante 05] FINISHED        | Eat:1 Wait:0 | Terminou todas iterações
+[1763823425.561698] [Estudante 10] LEFT            | Eat:0 Wait:0 | Saiu do refeitório
+[1763823425.561729] [Estudante 10] GET_FOOD        | Eat:0 Wait:0 | Pegando comida
+[1763823425.588934] [Estudante 10] REQ_ENTRY       | Eat:0 Wait:0 | Tentando sentar
+[1763823425.588972] [Estudante 10] ABORT_ENTRY     | Eat:0 Wait:0 | Último sobrevivente detectado
+[1763823425.588982] [Estudante 10] FINISHED        | Eat:0 Wait:0 | Terminou todas iterações
+--- Trace Log Finalizado ---
